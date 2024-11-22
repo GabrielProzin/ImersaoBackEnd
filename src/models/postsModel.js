@@ -1,9 +1,16 @@
 import conectarAoBanco from "../config/dbConfig.js";
+import { postarNovoPost } from "../controllers/postsController.js";
 
 const conexao = await conectarAoBanco(process.env.STRING_CONEXAO);
 
-export default async function getTodosPosts() {
+export async function getTodosPosts() {
   const db = conexao.db("imersaoBackEnd");
   const colecao = db.collection("posts");
   return colecao.find().toArray();
+}
+
+export async function criarPost(novoPost) {
+  const db = conexao.db("imersaoBackEnd");
+  const colecao = db.collection("posts");
+  return colecao.insertOne(novoPost);
 }
