@@ -26,8 +26,16 @@ As seguintes tecnologias foram empregadas no desenvolvimento deste projeto back-
 
 ## 📂 Estrutura do Projeto
 
-ImersaoBackEnd-main/ ├── src/ │ ├── config/ # Arquivos de configuração (ex.: conexão com banco de dados) │ ├── controllers/ # Controladores que gerenciam a lógica da aplicação │ ├── models/ # Modelos de dados para MongoDB utilizando Mongoose │ ├── routes/ # Definições de rotas da aplicação │ ├── services/ # Serviços principais com a lógica de negócios ├── server.js # Ponto de entrada principal do servidor ├── package.json # Dependências e scripts ├── uploads/ # Armazenamento de arquivos enviados
-
+ImersaoBackEnd-main/
+├── src/
+│   ├── config/       # Arquivos de configuração (ex.: conexão com banco de dados)
+│   ├── controllers/  # Controladores que gerenciam a lógica da aplicação
+│   ├── models/       # Modelos de dados para MongoDB utilizando Mongoose
+│   ├── routes/       # Definições de rotas da aplicação
+│   ├── services/     # Serviços principais com a lógica de negócios
+├── server.js         # Ponto de entrada principal do servidor
+├── package.json      # Dependências e scripts
+├── uploads/          # Armazenamento de arquivos enviados
 
 ## 🛠️ Principais Funcionalidades
 
