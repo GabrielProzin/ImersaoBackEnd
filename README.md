@@ -26,6 +26,9 @@ As seguintes tecnologias foram empregadas no desenvolvimento deste projeto back-
 
 ## 📂 Estrutura do Projeto
 
+A estrutura de diretórios do projeto está organizada da seguinte forma:
+
+```plaintext
 ImersaoBackEnd-main/
 ├── src/
 │   ├── config/       # Arquivos de configuração (ex.: conexão com banco de dados)
@@ -36,6 +39,7 @@ ImersaoBackEnd-main/
 ├── server.js         # Ponto de entrada principal do servidor
 ├── package.json      # Dependências e scripts
 ├── uploads/          # Armazenamento de arquivos enviados
+````
 
 ## 🛠️ Principais Funcionalidades
 
